@@ -1,9 +1,8 @@
 # 构建应用
 FROM node:18 AS builder
+VOLUME ["/app"]
 WORKDIR /app
-COPY package*.json ./
 RUN npm install
-COPY . .
 RUN npm run build
 
 # 最小化镜像
