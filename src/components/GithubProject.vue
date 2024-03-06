@@ -57,7 +57,7 @@ const projectList = computed(() => {
 
 // 跳转至 Github
 const toGithub = (data) => {
-  window.open(`https://onocn.cn`);
+  window.open(`https://sujiuyao.top`);
 };
 </script>
 
